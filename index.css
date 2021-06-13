@@ -5,6 +5,10 @@ body, html {
   font-family: American Typewriter;
 }
 
+img {
+	display: inline-block;
+}
+
 /* Style tab links */
 .tablink {
 	font-family: American Typewriter;
@@ -29,6 +33,10 @@ body, html {
   display: none;
   padding: 100px 20px;
   height: 100%;
+}
+
+a {
+	color:  black;
 }
 
 #BrainStream {background-color: white;}
