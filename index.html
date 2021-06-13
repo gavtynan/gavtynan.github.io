@@ -5,7 +5,29 @@
 			<script src="index.js"></script>
 		</head>
 		<body>
-			<h1>Hello World</h1>
-			<p>I'm hosted with GitHub Pages.</p>
+			<button class="tablink" onclick="openPage('BrainStream', this, 'lightgrey')">Brain Stream</button>
+			<button class="tablink" onclick="openPage('CodeThings', this, 'lightgrey')" id="defaultOpen">Code Things</button>
+			<button class="tablink" onclick="openPage('AboutMe', this, 'lightgrey')">About Me</button>
+			<button class="tablink" onclick="openPage('Contact', this, 'lightgrey')">Contact Me</button>
+
+			<div id="BrainStream" class="tabcontent">
+			  <h3>Brain Stream</h3>
+			  <p>Home is where the heart is..</p>
+			</div>
+
+			<div id="CodeThings" class="tabcontent">
+			  <h3>Code Things</h3>
+			  <p>Some news this fine day!</p> 
+			</div>
+
+			<div id="AboutMe" class="tabcontent">
+			  <h3>About Me</h3>
+			  <p>Get in touch, or swing by for a cup of coffee.</p>
+			</div>
+
+			<div id="ContactMe" class="tabcontent">
+			  <h3>Contact Me</h3>
+			  <p>Who we are and what we do.</p>
+			</div>
 		</body>
 	</html>
