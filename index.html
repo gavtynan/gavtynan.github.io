@@ -5,11 +5,12 @@
 			<script src="index.js"></script>
 		</head>
 		<body>
-			<button class="tablink" onclick="openPage('BrainStream', this, 'lightgrey')">Brain Stream</button>
-			<button class="tablink" onclick="openPage('CodeThings', this, 'lightgrey')" id="defaultOpen">Code Things</button>
-			<button class="tablink" onclick="openPage('AboutMe', this, 'lightgrey')">My Story</button>
-			<button class="tablink" onclick="openPage('ContactMe', this, 'lightgrey')">Ring My Phone</button>
-			<button class="tablink" onclick="openPage('Quotes', this, 'lightgrey')">Ear Buzzers</button>
+			<button class="tablink" id="brainid" onclick="openPage('BrainStream', this, 'lightgrey')">Brain Stream</button>
+			<button class="tablink" id="codeid" onclick="openPage('CodeThings', this, 'lightgrey')" id="defaultOpen">Code Things</button>
+			<button class="tablink" id="aboutid" onclick="openPage('AboutMe', this, 'lightgrey')">My Story</button>
+			<button class="tablink" id="contactid" onclick="openPage('ContactMe', this, 'lightgrey')">Ring My Phone</button>
+			<button class="tablink" id="quoteid" onclick="openPage('Quotes', this, 'lightgrey')">Ear Buzzers</button>
+			<button class="tablink" id="lyricid" onclick="openPage('Lyrics', this, 'lightgrey')">Fantastic Lyrics</button>
 			<center>
 				<h1>A look into my life for friends, families, and employers</h1>
 				<h4>Under contstant constructions....</h4>
@@ -115,6 +116,11 @@
 				<p>"What is she doing?"</p>
 				<p>"SHE'S PETTING THE EARTH! IT NEEDS HEALING!"</p>
 				<br>
+			</div>
+			<div id="Lyrics" class="tabcontent">
+			  <h3>Fantastic Lyrics</h3>
+			  <p>Some truly amazing and genius song lyrics that I have heard throughout my life...</p>
+			  <p>This page is eventually going to have really cool scrolling text</p> 
 			</div>
 		</body>
 	</html>
