@@ -22,6 +22,16 @@ function openPage(pageName, elmnt, color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-function main() {
-	
+function protectBrain() {
+  var pass = "youfoundit"
+  var s = "";
+  while(s != pass) {
+    s = prompt("Please enter the password to access this page");
+    if(s == pass) {
+      openPage('BrainStream', this, '#FDB196');
+    } else {
+      alert("Inccorect password")
+      openpage('AboutMe', this, '#FBEAC8');
+    }
+  }
 }
