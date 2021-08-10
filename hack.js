@@ -22,7 +22,7 @@ function openPage(pageName, elmnt, color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-function protectBrain() {
+function findPass() {
   var pass = "youfoundit"
   var s = "";
   while(s != pass) {
@@ -30,8 +30,8 @@ function protectBrain() {
     if(s == pass) {
       openPage('BrainStream', this, '#FDB196');
     } else {
-      alert("Inccorect password")
-      openpage('AboutMe', this, '#FBEAC8');
+      alert("Incorrect password")
+    
     }
   }
 }
